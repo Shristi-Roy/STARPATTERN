@@ -1,0 +1,7 @@
+for (let r=1; r<=5; r++){
+    let txt = "";
+    for (let c=1; c <= 6-r; c++){
+        txt = txt + "*"
+    }
+    console.log(txt)
+}
