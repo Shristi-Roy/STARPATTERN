@@ -1,0 +1,8 @@
+for (let r=1; r<=5; r++){
+    let txt = "";
+    for (let c=1;c <= r; c++){
+        txt = txt + "*"
+    }
+    console.log(txt)
+    //console.log("\n")
+}
